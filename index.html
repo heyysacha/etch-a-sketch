@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Etch-A-Sketch</h1>
+    <div id="flex">
+    <div id="container"></div>
+    <div id="menu">
+        <h2>MENU</h2>
+        <input type="color" id="color">
+        <span>Choose Color</span>
+        <button id="rainbow">Rainbow Mode</button>
+        <button id="eraser">Eraser</button>
+        <input type="range" id="size" name="size" min="2" max="100" value="16" step="1" list="increments">
+        <label for="size">Grid Size 16 x 16</label>
+        <button id="clear">Clear Screen</button>
+    </div>
+    </div>
+</body>
+</html>
